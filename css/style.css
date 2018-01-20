@@ -25,12 +25,8 @@ a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #18BC9C;
+    color: #B22222;
     outline: none;
-}
-
-div.linha{
-    lighting-color: green
 }
 
 h1,
@@ -71,7 +67,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: white;
-    background-color: #18BC9C;
+    background-color: #4A708B;
 }
 
 hr.star-primary {
@@ -98,7 +94,7 @@ section h2 {
 
 section.success {
     color: white;
-    background: #18BC9C;
+    background: #4A708B;
 }
 
 @media (max-width: 767px) {
@@ -165,7 +161,7 @@ section.success {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-    color: #18BC9C;
+    color: #B22222;
     outline: none;
 }
 
@@ -185,8 +181,8 @@ section.success {
 #mainNav .navbar-toggler:focus,
 #mainNav .navbar-toggler:hover {
     color: white;
-    border-color: #18BC9C;
-    background-color: #18BC9C;
+    border-color: #B22222;
+    background-color: #B22222;
 }
 
 @media (min-width: 992px) {
@@ -206,13 +202,13 @@ section.success {
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
         color: white;
         border-radius: 3px;
-        background: #18BC9C;
+        background: #B22222;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: white;
-        background: #18BC9C;
+        background: #B22222;
     }
     #mainNav.navbar-shrink {
         padding-top: 10px;
@@ -228,7 +224,7 @@ header.masthead {
     padding-bottom: 50px;
     text-align: center;
     color: white;
-    background: #18BC9C;
+    background: #4A708B;
 }
 
 header.masthead img {
@@ -261,6 +257,9 @@ header.masthead .intro-text .skills {
         font-size: 1.75em;
     }
 }
+
+
+
 
 #portfolio .portfolio-item {
     right: 0;
